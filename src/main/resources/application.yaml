@@ -1,0 +1,17 @@
+spring.application.name: kotlin-spring-test
+
+server.port: 8080
+server.http2.enabled: true
+spring.kafka.bootstrap-servers: localhost:9092
+spring.kafka.consumer.group-id: kotlin-spring-test-group
+spring.kafka.producer:
+  key-serializer: org.apache.kafka.common.serialization.StringSerializer
+  value-serializer: org.apache.kafka.common.serialization.StringSerializer
+server.shutdown: graceful
+spring.main.banner-mode: off
+logging.level.root: info
+springdoc.swagger-ui.enabled: true
+springdoc.api-docs.enabled: true
+
+spring.data.mongodb.uri: mongodb://localhost:27017/kotlin-spring-test
+spring.data.mongodb.database: kotlin-spring-test

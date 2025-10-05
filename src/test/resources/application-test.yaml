@@ -1,0 +1,11 @@
+server.shutdown: immediate
+server.port: 2137
+logging.level.root: DEBUG
+springdoc.swagger-ui.enabled: false
+springdoc.api-docs.enabled: false
+spring.kafka.producer:
+  key-serializer: org.apache.kafka.common.serialization.StringSerializer
+  value-serializer: org.apache.kafka.common.serialization.StringSerializer
+spring.cloud.openfeign.client.config.construction-worker.url: http://127.0.0.1:${server.port:8080}
+
+#debug: true
