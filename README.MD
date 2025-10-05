@@ -21,6 +21,8 @@ Projekt "Stardust" to aplikacja stworzona w celu monitorowania czasu pracy oraz 
 
 ## Wymagania funkcjonalne
 
+**Wszelkie zmiany powinny być wykonane na osobnym branchu, a pod koniec sesji kodowania otwary Pull Request.**
+
 ### 1. Rejestracja czasu pracy
 * **Rejestracja rozpoczęcia i zakończenia pracy:** Każdy szeregowy pracownik musi mieć możliwość zarejestrowania momentu rozpoczęcia i zakończenia swojej zmiany.
 * **Wymiar czasu pracy:** Standardowa zmiana robocza wynosi **15 godzin** dziennie.
