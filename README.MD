@@ -50,10 +50,10 @@ System musi integrować się z imperialnym systemem "Nadzorca" i wysyłać powia
 ### 5. Dokumentacja API
 * **Dokumentacja OpenAPI (Swagger):** Każdy udostępniony endpoint API musi posiadać kompletną i aktualną dokumentację w standardzie OpenAPI. Jest to wymaganie kluczowe dla **Biura Bezpieczeństwa Imperialnego (BBI)**, które pod nadzorem dyrektora Orsona Krennica, planuje zintegrować się z systemem w celu wykorzystania danych do własnych celów analitycznych i operacyjnych.
 
-### 5. Program Resocjalizacyjny "Nowa Szansa"
+### 6. Program Resocjalizacyjny "Nowa Szansa"
 Imperium w swojej łaskawości oferuje wrogom możliwość odkupienia win poprzez ciężką i uczciwą pracę przy naszym wielkim projekcie. Należy zaimplementować mechanizm importu potencjalnych kandydatów do pracy z galaktycznej bazy danych.
 
 * **Implementacja importu kandydatów:** Stwórz mechanizm (np. endpoint lub zadanie cykliczne), który będzie pobierał dane postaci z publicznego holonetu dostępnego pod adresem `https://swapi.dev/api/people/`. Zaimportowani kandydaci powinni zostać dodani do systemu jako nowi pracownicy z domyślnym, niskim wskaźnikiem efektywności, gotowi do przydzielenia do brygad roboczych. (Użyj w tym celu Feigna lub RestTemplate)
 
-### 6. Incydent "Czerwony Droid": Sabotaż i Wymagania Naprawcze
+### 7. Incydent "Czerwony Droid": Sabotaż i Wymagania Naprawcze
 Ostatnie analizy logów systemowych oraz raporty z niestabilnych testów integracyjnych ujawniły celowe działanie sabotażowe. Rebeliancki agent, ukrywający się pod fałszywą tożsamością, wprowadził do kodu z pozoru niegroźne modyfikacje. Spowodowały one jednak kaskadowe błędy w testach oraz subtelne problemy z wydajnością. Konieczne jest przywrócenie systemowi pełnej sprawności operacyjnej.

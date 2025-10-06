@@ -21,10 +21,6 @@ class CreateConstructionWorkerHandler(
             throw ConstructionWorkerAlreadyEmployed("ConstructionWorker with imperialId=${command.imperialId} already exists")
         }
 
-        require(repository.findByImperialId(command.imperialId) == null) {
-            "ConstructionWorker with imperialId=${command.imperialId} already exists"
-        }
-
         val constructionWorker =
             ConstructionWorker.new(
                 imperialId = command.imperialId,
